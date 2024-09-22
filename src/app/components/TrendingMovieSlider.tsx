@@ -84,6 +84,7 @@ const TrendingMovieSlider: React.FC = () => {
                   alt={movie.title}
                   width={500}
                   height={750} // Set a numeric height value
+                  unoptimized
                   className="w-full h-auto rounded-lg shadow-lg transition-transform transform group-hover:scale-105 group-hover:ring-2 group-hover:ring-red-500 group-hover:glow-red"
                 />
                 <div className="absolute top-2 right-2 bg-white dark:bg-black bg-opacity-70 dark:bg-opacity-70 text-yellow-400 text-xs px-2 py-1 rounded flex items-center">

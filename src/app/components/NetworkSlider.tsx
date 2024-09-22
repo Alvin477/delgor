@@ -83,6 +83,7 @@ const NetworkSlider: React.FC = () => {
                     alt={network.name}
                     width={120}
                     height={60}
+                    unoptimized
                     objectFit="contain"
                     className="h-12 object-contain"
                   />

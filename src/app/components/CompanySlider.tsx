@@ -77,6 +77,7 @@ const CompanySlider: React.FC = () => {
                     alt={company.name}
                     width={120} // Specify width
                     height={60} // Specify height
+                    unoptimized
                     objectFit="contain"
                     className="h-12 object-contain"
                   />

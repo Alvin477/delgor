@@ -122,6 +122,7 @@ const LatestGrid: React.FC = () => {
                   alt={item.name || item.title || "Media Item"}
                   width={500}
                   height={750}
+                  unoptimized
                   className="rounded-lg"
                   placeholder="blur"
                   blurDataURL={`https://image.tmdb.org/t/p/w92${item.poster_path}`}
