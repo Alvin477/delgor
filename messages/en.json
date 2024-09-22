@@ -25,7 +25,7 @@
     "seeAll": "See All"
   },
   "CompanySlider": {
-    "topCompanies": "Top Production Companies",
+    "topProductionCompanies": "Top Production Companies",
     "seeAll": "See All"
   },
   "HomePage": {
@@ -68,5 +68,10 @@
   "WatchPage": {
     "title": "Watch {name} - Delgor",
     "description": "Watch {name} on Delgor, the best platform for streaming."
+  },
+  "LatestGrid": {
+    "latest": "Latest",
+    "movie": "Movie",
+    "tvShow": "TV Show"
   }
 }

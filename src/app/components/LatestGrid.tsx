@@ -44,14 +44,14 @@ const LatestGrid: React.FC = () => {
       const type = activeTab === "movie" ? "movie" : "tv";
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/trending/${type}/day?api_key=${process.env.TMDB_API_KEY}`
+          `https://api.themoviedb.org/3/trending/${type}/day?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`
         );
         const data = await response.json();
 
         let allItems = [...data.results];
         if (allItems.length < itemsToShow) {
           const nextPageResponse = await fetch(
-            `https://api.themoviedb.org/3/trending/${type}/day?api_key=${process.env.TMDB_API_KEY}&page=2`
+            `https://api.themoviedb.org/3/trending/${type}/day?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}&page=2`
           );
           const nextPageData = await nextPageResponse.json();
           allItems = [...allItems, ...nextPageData.results];

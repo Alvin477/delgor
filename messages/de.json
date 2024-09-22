@@ -26,7 +26,8 @@
   },
   "CompanySlider": {
     "topCompanies": "Top Produktionsfirmen",
-    "seeAll": "Alle ansehen"
+    "seeAll": "Alle ansehen",
+    "topProductionCompanies": "Top Produktionsfirmen"
   },
   "HomePage": {
     "title": "Delgor - Sehen Sie Filme, Serien und mehr",
@@ -61,5 +62,10 @@
     "thriller": "Thriller",
     "war": "Krieg",
     "western": "Western"
+  },
+  "LatestGrid": {
+    "title": "Neueste",
+    "movie": "Film",
+    "tvShow": "Fernsehshow"
   }
 }

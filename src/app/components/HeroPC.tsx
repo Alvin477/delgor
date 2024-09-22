@@ -44,7 +44,7 @@ const HeroPc: React.FC = () => {
     const fetchTrending = async () => {
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.TMDB_API_KEY}`
+          `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`
         );
         const data = await response.json();
         const randomIndex = Math.floor(Math.random() * data.results.length);

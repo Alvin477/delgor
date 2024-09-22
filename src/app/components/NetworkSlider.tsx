@@ -29,7 +29,7 @@ const NetworkSlider: React.FC = () => {
         const responses = await Promise.all(
           networkIds.map((id) =>
             fetch(
-              `https://api.themoviedb.org/3/network/${id}?api_key=${process.env.TMDB_API_KEY}`
+              `https://api.themoviedb.org/3/network/${id}?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`
             ).then((res) => res.json())
           )
         );
