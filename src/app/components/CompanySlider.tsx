@@ -76,11 +76,12 @@ const CompanySlider: React.FC = () => {
                     src={`https://image.tmdb.org/t/p/original${company.logo_path}`}
                     alt={company.name}
                     width={120} // Specify width
-                    height={50} // Specify height
-                    className="object-contain"
+                    height={60} // Specify height
+                    objectFit="contain"
+                    className="h-12 object-contain"
                   />
                 ) : (
-                  <span>{company.name}</span>
+                  <div className="text-sm text-gray-500">{company.name}</div>
                 )}
               </div>
             </Link>
