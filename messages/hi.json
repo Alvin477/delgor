@@ -1,0 +1,41 @@
+{
+  "HeroPc": {
+    "loading": "लोड हो रहा है...",
+    "watch": "देखें",
+    "trailer": "ट्रेलर",
+    "search": "खोजें",
+    "searchPlaceholder": "अपनी पसंदीदा फिल्म या टीवी श्रृंखला खोजें...",
+    "movie": "फिल्म",
+    "tvShow": "टीवी शो",
+    "noDescription": "कोई विवरण उपलब्ध नहीं है।",
+    "untitled": "शीर्षकहीन"
+  },
+  "TrendingTv": {
+    "trendingTvShows": "लोकप्रिय टीवी शो",
+    "seeAll": "सभी देखें",
+    "rating": "रेटिंग"
+  },
+  "TrendingMovies": {
+    "trendingMovies": "लोकप्रिय फिल्में",
+    "seeAll": "सभी देखें",
+    "rating": "रेटिंग"
+  },
+  "NetworkSlider": {
+    "popularNetworks": "लोकप्रिय नेटवर्क",
+    "seeAll": "सभी देखें",
+    "rating": "रेटिंग"
+  },
+  "CompanySlider": {
+    "topProductionCompanies": "शीर्ष प्रोडक्शन कंपनियाँ"
+  },
+  "HomePage": {
+    "title": "डेलगोर - फिल्में, टीवी शो और बहुत कुछ देखें",
+    "metaDescription": "डेलगोर विभिन्न भाषाओं में नवीनतम लोकप्रिय फिल्में और टीवी शो प्रदान करता है। कहीं भी, कभी भी अपना मनोरंजन का आनंद लें।",
+    "metaKeywords": "फिल्में, टीवी शो, स्ट्रीमिंग, मनोरंजन, नवीनतम फिल्में, लोकप्रिय टीवी, डाउनलोड, देखें"
+  },
+  "LatestGrid": {
+    "latest": "नवीनतम",
+    "movie": "फिल्म",
+    "tvShow": "टीवी शो"
+  }
+}

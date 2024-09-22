@@ -1,0 +1,41 @@
+{
+    "HeroPc": {
+      "loading": "Загрузка...",
+      "watch": "Смотреть",
+      "trailer": "Трейлер",
+      "search": "Поиск",
+      "searchPlaceholder": "Искать любимый фильм или сериал...",
+      "movie": "Фильм",
+      "tvShow": "Сериал",
+      "noDescription": "Описание отсутствует.",
+      "untitled": "Без названия"
+    },
+    "TrendingTv": {
+      "trendingTvShows": "Популярные сериалы",
+      "seeAll": "Смотреть все",
+      "rating": "Рейтинг"
+    },
+    "TrendingMovies": {
+      "trendingMovies": "Популярные фильмы",
+      "seeAll": "Смотреть все",
+      "rating": "Рейтинг"
+    },
+    "NetworkSlider": {
+      "popularNetworks": "Популярные телесети",
+      "seeAll": "Смотреть все",
+      "rating": "Рейтинг"
+    },
+    "CompanySlider": {
+      "topProductionCompanies": "Ведущие производственные компании"
+    },
+    "HomePage": {
+      "title": "Delgor - Смотрите фильмы, сериалы и многое другое",
+      "metaDescription": "Delgor предлагает последние популярные фильмы и сериалы на разных языках. Наслаждайтесь развлечениями где угодно и когда угодно.",
+      "metaKeywords": "фильмы, сериалы, стриминг, развлечения, новинки кино, популярные сериалы, Скачать, Смотреть"
+    },
+    "LatestGrid": {
+      "latest": "Последние",
+      "movie": "Фильм",
+      "tvShow": "Сериал"
+    }
+  }

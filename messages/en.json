@@ -1,0 +1,72 @@
+{
+  "HeroPc": {
+    "loading": "Loading...",
+    "watch": "Watch",
+    "trailer": "Trailer",
+    "search": "Search",
+    "searchPlaceholder": "Search for your favourite Movie or TV Series...",
+    "movie": "Movie",
+    "tvShow": "TV Show",
+    "noDescription": "No description available.",
+    "untitled": "Untitled"
+  },
+  "TrendingTv": {
+    "trendingTvShows": "Trending TV Shows",
+    "seeAll": "See All",
+    "rating": "Rating"
+  },
+  "TrendingMovies": {
+    "trendingMovies": "Trending Movies",
+    "seeAll": "See All",
+    "rating": "Rating"
+  },
+  "NetworkSlider": {
+    "popularNetworks": "Popular Networks",
+    "seeAll": "See All"
+  },
+  "CompanySlider": {
+    "topCompanies": "Top Production Companies",
+    "seeAll": "See All"
+  },
+  "HomePage": {
+    "title": "Delgor - Watch Movies, TV Shows, and More",
+    "metaDescription": "Delgor offers the latest trending movies and TV shows in various languages. Enjoy your entertainment anywhere, anytime.",
+    "metaKeywords": "movies, tv shows, streaming, entertainment, latest movies, trending TV, Download, Watch"
+  },
+  "WatchHero": {
+    "untitled": "Untitled",
+    "notAvailable": "N/A",
+    "genres": "Genres",
+    "noSynopsis": "No synopsis available.",
+    "readMore": "Read More",
+    "showLess": "Show Less"
+  },
+  "Genres": {
+    "action": "Action",
+    "adventure": "Adventure",
+    "animation": "Animation",
+    "comedy": "Comedy",
+    "crime": "Crime",
+    "documentary": "Documentary",
+    "drama": "Drama",
+    "family": "Family",
+    "fantasy": "Fantasy",
+    "history": "History",
+    "horror": "Horror",
+    "music": "Music",
+    "mystery": "Mystery",
+    "romance": "Romance",
+    "scienceFiction": "Science Fiction",
+    "tvMovie": "TV Movie",
+    "thriller": "Thriller",
+    "war": "War",
+    "western": "Western",
+    "Sci-Fi & Fantasy": "sciFiFantasy",
+    "Action & Adventure": "actionAdventure"
+  },
+
+  "WatchPage": {
+    "title": "Watch {name} - Delgor",
+    "description": "Watch {name} on Delgor, the best platform for streaming."
+  }
+}

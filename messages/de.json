@@ -1,0 +1,65 @@
+{
+  "HeroPc": {
+    "loading": "Laden...",
+    "watch": "Ansehen",
+    "trailer": "Trailer",
+    "search": "Suche",
+    "searchPlaceholder": "Suchen Sie nach Ihrem Lieblingsfilm oder Ihrer Lieblingsserie...",
+    "movie": "Film",
+    "tvShow": "Fernsehserie",
+    "noDescription": "Keine Beschreibung verfügbar.",
+    "untitled": "Ohne Titel"
+  },
+  "TrendingTv": {
+    "trendingTvShows": "Beliebte Fernsehserien",
+    "seeAll": "Alle ansehen",
+    "rating": "Bewertung"
+  },
+  "TrendingMovies": {
+    "trendingMovies": "Beliebte Filme",
+    "seeAll": "Alle ansehen",
+    "rating": "Bewertung"
+  },
+  "NetworkSlider": {
+    "popularNetworks": "Beliebte Netzwerke",
+    "seeAll": "Alle ansehen"
+  },
+  "CompanySlider": {
+    "topCompanies": "Top Produktionsfirmen",
+    "seeAll": "Alle ansehen"
+  },
+  "HomePage": {
+    "title": "Delgor - Sehen Sie Filme, Serien und mehr",
+    "metaDescription": "Delgor bietet die neuesten Trendfilme und Serien in verschiedenen Sprachen. Genießen Sie Ihre Unterhaltung überall und jederzeit.",
+    "metaKeywords": "Filme, Serien, Streaming, Unterhaltung, neueste Filme, Trendserien, Download, Ansehen"
+  },
+  "WatchHero": {
+    "untitled": "Ohne Titel",
+    "notAvailable": "N/V",
+    "genres": "Genres",
+    "noSynopsis": "Keine Inhaltsangabe verfügbar.",
+    "readMore": "Mehr lesen",
+    "showLess": "Weniger anzeigen"
+  },
+  "Genres": {
+    "action": "Action",
+    "adventure": "Abenteuer",
+    "animation": "Animation",
+    "comedy": "Komödie",
+    "crime": "Krimi",
+    "documentary": "Dokumentarfilm",
+    "drama": "Drama",
+    "family": "Familie",
+    "fantasy": "Fantasy",
+    "history": "Geschichte",
+    "horror": "Horror",
+    "music": "Musik",
+    "mystery": "Mystery",
+    "romance": "Romanze",
+    "scienceFiction": "Science Fiction",
+    "tvMovie": "TV-Film",
+    "thriller": "Thriller",
+    "war": "Krieg",
+    "western": "Western"
+  }
+}

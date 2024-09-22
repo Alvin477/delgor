@@ -1,0 +1,77 @@
+{
+    "HeroPc": {
+      "loading": "加载中...",
+      "watch": "观看",
+      "trailer": "预告片",
+      "search": "搜索",
+      "searchPlaceholder": "搜索您喜爱的电影或电视剧...",
+      "movie": "电影",
+      "tvShow": "电视剧",
+      "noDescription": "暂无描述。",
+      "untitled": "无标题"
+    },
+    "TrendingTv": {
+      "trendingTvShows": "热门电视剧",
+      "seeAll": "查看全部",
+      "rating": "评分"
+    },
+    "TrendingMovies": {
+      "trendingMovies": "热门电影",
+      "seeAll": "查看全部",
+      "rating": "评分"
+    },
+    "NetworkSlider": {
+      "popularNetworks": "热门网络",
+      "seeAll": "查看全部",
+      "rating": "评分"
+    },
+    "CompanySlider": {
+      "topProductionCompanies": "顶级制作公司"
+    },
+    "HomePage": {
+      "title": "Delgor - 观看电影、电视剧等更多内容",
+      "metaDescription": "Delgor 提供各种语言的最新热门电影和电视剧。随时随地享受您的娱乐。",
+      "metaKeywords": "电影, 电视剧, 流媒体, 娱乐, 最新电影, 热门电视剧, 下载, 观看"
+    },
+    "WatchHero": {
+      "untitled": "无标题",
+      "notAvailable": "暂无",
+      "genres": "类型",
+      "noSynopsis": "暂无简介。",
+      "readMore": "查看更多",
+      "showLess": "收起"
+    },
+    "Genres": {
+      "action": "动作",
+      "adventure": "冒险",
+      "animation": "动画",
+      "comedy": "喜剧",
+      "crime": "犯罪",
+      "documentary": "纪录片",
+      "drama": "剧情",
+      "family": "家庭",
+      "fantasy": "奇幻",
+      "history": "历史",
+      "horror": "恐怖",
+      "music": "音乐",
+      "mystery": "悬疑",
+      "romance": "爱情",
+      "scienceFiction": "科幻",
+      "tvMovie": "电视电影",
+      "thriller": "惊悚",
+      "war": "战争",
+      "western": "西部",
+      "Sci-Fi & Fantasy": "科幻奇幻",
+      "Action & Adventure": "动作冒险"
+    },
+    "LatestGrid": {
+      "latest": "最新",
+      "movie": "电影",
+      "tvShow": "电视剧"
+    },
+    "WatchPage": {
+      "title": "观看 {name} - Delgor",
+      "description": "在 Delgor 上观看 {name}，享受最佳流媒体平台。"
+    }
+  }
+  

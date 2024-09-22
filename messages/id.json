@@ -1,0 +1,36 @@
+{
+  "HeroPc": {
+    "loading": "Memuat...",
+    "watch": "Tonton",
+    "trailer": "Cuplikan",
+    "search": "Cari",
+    "searchPlaceholder": "Cari Film atau Serial TV favorit Anda...",
+    "movie": "Film",
+    "tvShow": "Acara TV",
+    "noDescription": "Tidak ada deskripsi tersedia.",
+    "untitled": "Tanpa Judul"
+  },
+  "TrendingTv": {
+    "trendingTvShows": "Acara TV Terpopuler",
+    "seeAll": "Lihat Semua",
+    "rating": "Peringkat"
+  },
+  "TrendingMovies": {
+    "trendingMovies": "Film Terpopuler",
+    "seeAll": "Lihat Semua",
+    "rating": "Peringkat"
+  },
+  "NetworkSlider": {
+    "popularNetworks": "Jaringan Populer",
+    "seeAll": "Lihat Semua",
+    "rating": "Peringkat"
+  },
+  "CompanySlider": {
+    "topProductionCompanies": "Perusahaan Produksi Teratas"
+  },
+  "HomePage": {
+    "title": "Delgor - Tonton Film, Acara TV, dan Lainnya",
+    "metaDescription": "Delgor menawarkan film dan acara TV terpopuler terbaru dalam berbagai bahasa. Nikmati hiburan Anda di mana saja, kapan saja.",
+    "metaKeywords": "film, acara tv, streaming, hiburan, film terbaru, TV terpopuler, Unduh, Tonton"
+  }
+}

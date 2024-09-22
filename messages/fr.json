@@ -1,0 +1,41 @@
+{
+    "HeroPc": {
+      "loading": "Chargement...",
+      "watch": "Regarder",
+      "trailer": "Bande-annonce",
+      "search": "Rechercher",
+      "searchPlaceholder": "Recherchez votre film ou série TV préféré...",
+      "movie": "Film",
+      "tvShow": "Série TV",
+      "noDescription": "Aucune description disponible.",
+      "untitled": "Sans titre"
+    },
+    "TrendingTv": {
+      "trendingTvShows": "Séries TV tendance",
+      "seeAll": "Voir tout",
+      "rating": "Note"
+    },
+    "TrendingMovies": {
+      "trendingMovies": "Films tendance",
+      "seeAll": "Voir tout",
+      "rating": "Note"
+    },
+    "NetworkSlider": {
+      "popularNetworks": "Réseaux populaires",
+      "seeAll": "Voir tout",
+      "rating": "Note"
+    },
+    "CompanySlider": {
+      "topProductionCompanies": "Meilleures sociétés de production"
+    },
+    "HomePage": {
+      "title": "Delgor - Regardez des films, des séries TV et plus",
+      "metaDescription": "Delgor propose les derniers films et séries TV tendance dans diverses langues. Profitez de votre divertissement n'importe où, n'importe quand.",
+      "metaKeywords": "films, séries TV, streaming, divertissement, derniers films, séries TV tendance, Télécharger, Regarder"
+    },
+    "LatestGrid": {
+      "latest": "Derniers",
+      "movie": "Film",
+      "tvShow": "Série TV"
+    }
+  }

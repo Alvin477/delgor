@@ -1,0 +1,41 @@
+{
+    "HeroPc": {
+      "loading": "لوڈ ہو رہا ہے...",
+      "watch": "دیکھیں",
+      "trailer": "ٹریلر",
+      "search": "تلاش کریں",
+      "searchPlaceholder": "اپنی پسندیدہ فلم یا ٹی وی سیریز تلاش کریں...",
+      "movie": "فلم",
+      "tvShow": "ٹی وی شو",
+      "noDescription": "کوئی تفصیل دستیاب نہیں ہے۔",
+      "untitled": "بے عنوان"
+    },
+    "TrendingTv": {
+      "trendingTvShows": "مقبول ٹی وی شوز",
+      "seeAll": "سب دیکھیں",
+      "rating": "درجہ بندی"
+    },
+    "TrendingMovies": {
+      "trendingMovies": "مقبول فلمیں",
+      "seeAll": "سب دیکھیں",
+      "rating": "درجہ بندی"
+    },
+    "NetworkSlider": {
+      "popularNetworks": "مشہور نیٹ ورکس",
+      "seeAll": "سب دیکھیں",
+      "rating": "درجہ بندی"
+    },
+    "CompanySlider": {
+      "topProductionCompanies": "بہترین پروڈکشن کمپنیاں"
+    },
+    "HomePage": {
+      "title": "ڈیلگور - فلمیں، ٹی وی شوز اور مزید دیکھیں",
+      "metaDescription": "ڈیلگور مختلف زبانوں میں تازہ ترین مقبول فلمیں اور ٹی وی شوز پیش کرتا ہے۔ کہیں بھی، کبھی بھی اپنی تفریح سے لطف اندوز ہوں۔",
+      "metaKeywords": "فلمیں، ٹی وی شوز، سٹریمنگ، تفریح، تازہ ترین فلمیں، مقبول ٹی وی، ڈاؤن لوڈ، دیکھیں"
+    },
+    "LatestGrid": {
+      "latest": "تازہ ترین",
+      "movie": "فلم",
+      "tvShow": "ٹی وی شو"
+    }
+  }

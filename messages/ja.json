@@ -1,0 +1,41 @@
+{
+  "HeroPc": {
+    "loading": "読み込み中...",
+    "watch": "視聴する",
+    "trailer": "予告編",
+    "search": "検索",
+    "searchPlaceholder": "お気に入りの映画やTVシリーズを検索...",
+    "movie": "映画",
+    "tvShow": "TVショー",
+    "noDescription": "説明がありません。",
+    "untitled": "無題"
+  },
+  "TrendingTv": {
+    "trendingTvShows": "人気のTVショー",
+    "seeAll": "すべて見る",
+    "rating": "評価"
+  },
+  "TrendingMovies": {
+    "trendingMovies": "人気の映画",
+    "seeAll": "すべて見る",
+    "rating": "評価"
+  },
+  "NetworkSlider": {
+    "popularNetworks": "人気のネットワーク",
+    "seeAll": "すべて見る",
+    "rating": "評価"
+  },
+  "CompanySlider": {
+    "topProductionCompanies": "トップ制作会社"
+  },
+  "HomePage": {
+    "title": "Delgor - 映画、TVショーなどを視聴",
+    "metaDescription": "Delgorは様々な言語で最新の人気映画やTVショーを提供しています。いつでもどこでもエンターテイメントをお楽しみください。",
+    "metaKeywords": "映画, TVショー, ストリーミング, エンターテイメント, 最新映画, 人気TV, ダウンロード, 視聴"
+  },
+  "LatestGrid": {
+    "latest": "最新",
+    "movie": "映画",
+    "tvShow": "TVショー"
+  }
+}

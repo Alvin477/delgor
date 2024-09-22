@@ -6,14 +6,21 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundColor: {
+        'black': '#000000',
+      },
+      textColor: {
+        'white': '#ededed',
+      },
+      backdropBlur: {
+        sm: '4px',
       },
     },
   },
   plugins: [],
 };
+
 export default config;
