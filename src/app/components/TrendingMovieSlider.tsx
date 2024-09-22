@@ -22,6 +22,7 @@ interface Movie {
 }
 
 // Async function to fetch trending movies
+// Async function to fetch trending movies
 async function fetchTrendingMovies(): Promise<Movie[]> {
   const res = await fetch(
     `https://api.themoviedb.org/3/trending/movie/day?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`

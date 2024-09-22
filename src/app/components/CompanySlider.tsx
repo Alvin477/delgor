@@ -29,7 +29,7 @@ const CompanySlider: React.FC = () => {
         const responses = await Promise.all(
           companyIds.map((id) =>
             fetch(
-              `https://api.themoviedb.org/3/company/${id}?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`
+              `https://api.themoviedb.org/3/company/${id}?api_key=${process.env.TMDB_API_KEY}`
             ).then((res) => res.json())
           )
         );
