@@ -5,7 +5,13 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['image.tmdb.org'], // Add any other domains if needed
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+        pathname: '/t/p/**', // Allow all paths after /t/p/
+      },
+    ],
   },
 };
 
