@@ -1,6 +1,7 @@
 import WatchHeroTv from '@/app/components/WatchHeroTv'; // Import WatchHeroTv
 import TVWatchButtons from '@/app/components/TVWatchButtons'; // Import TVWatchButtons
 import TvCastSlider from '@/app/components/TvCastSlider'; // Import TvCastSlider
+import TVWatchTabs from '@/app/components/TVWatchTabs'; // Import RelatedTVShows
 import { getMessages } from 'next-intl/server';
 import { fetchTvShowDetails } from '@/app/lib/fetchTvShowDetails'; // A custom function to fetch TV show data
 
@@ -62,6 +63,9 @@ export default async function WatchTvPage({ params }: { params: { slug: string, 
     return <div>TV show not found</div>; // Handle case when TV show is not found
   }
 
+  // Ensure seasons are available, otherwise pass an empty array
+  const seasons = tvShow?.seasons || [];
+
   return (
     <div>
       <WatchHeroTv tvShow={tvShow} /> {/* Pass the TV show details to the WatchHeroTv component */}
@@ -72,6 +76,7 @@ export default async function WatchTvPage({ params }: { params: { slug: string, 
         releaseDate={tvShow.first_air_date} // Pass the release date
       />
       <TvCastSlider tvShowId={tvShow.id} /> {/* Add the TvCastSlider for the cast */}
+      <TVWatchTabs tvShowId={tvShow.id} seasons={seasons} /> {/* Pass seasons data to TVWatchTabs */}
     </div>
   );
 }

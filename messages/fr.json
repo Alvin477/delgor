@@ -37,5 +37,25 @@
       "latest": "Derniers",
       "movie": "Film",
       "tvShow": "Série TV"
-    }
+    },
+
+  "MoviesPage": {
+    "pageTitle": "Delgor - Explore Movies",
+    "metaDescription": "Browse and discover the latest movies on Delgor.",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "genre": "Genre",
+    "year": "Year"
+  },
+
+  "TVPage": {
+    "pageTitle": "Delgor - Explore TV Shows",
+    "metaDescription": "Explore the latest trending TV shows on Delgor.",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "genre": "Genre",
+    "year": "Year"
   }
+}

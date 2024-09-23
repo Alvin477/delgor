@@ -95,7 +95,8 @@
     "copyLink": "Copy Link",
     "linkCopied": "Link copied to clipboard!",
     "shareMessage": "Share this TV Show with your friends!, Make Them Happy",
-    "sharingCaring": "Sharing Is Caring"
+    "sharingCaring": "Sharing Is Caring",
+    "added": "Added"
   },
 
   "DownloadButton": {
@@ -104,5 +105,79 @@
   "CastSlider": {
     "cast": "Cast"
   
+  },
+  "Related": {
+    "youMayAlsoLike": "You May Also Like"
+  },
+
+  "TVWatchTabs": {
+    "episodes": "Episodes",
+    "relatedTVShows": "Related TV Shows"
+  },
+
+  "EpisodesTab": {
+    "season": "Season",
+    "episode": "Episode",
+    "noEpisodes": "No episodes found."
+  },
+
+"MoviesPage": {
+    "pageTitle": "Delgor - Explore Movies",
+    "metaDescription": "Browse and discover the latest movies on Delgor.",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "genre": "Genre",
+    "year": "Year"
+  },
+  
+  "TVPage": {
+      "pageTitle": "Delgor - Explore TV Shows",
+      "metaDescription": "Explore the latest trending TV shows on Delgor.",
+      "all": "All",
+      "previous": "Previous",
+      "next": "Next",
+      "genre": "Genre",
+      "year": "Year"
+    },
+  
+  "Years": {
+    "all": "All",
+    "2024": "2024",
+    "2023": "2023",
+    "2022": "2022",
+    "2021": "2021",
+    "2020": "2020",
+    "2019": "2019",
+    "2018": "2018",
+    "2017": "2017",
+    "2016": "2016",
+    "2015": "2015",
+    "2014": "2014",
+    "2013": "2013",
+    "2012": "2012",
+    "2011": "2011",
+    "2010": "2010",
+    "2009": "2009",
+    "2008": "2008",
+    "2007": "2007",
+    "2006": "2006",
+    "2005": "2005",
+    "2004": "2004",
+    "2003": "2003",
+    "2002": "2002",
+    "2001": "2001",
+    "2000": "2000",
+    "1999": "1999"
+  },
+  
+  "Header": {
+    "home": "Home",
+    "movies": "Movies",
+    "tvShows": "TV Shows",
+    "watchList": "WATCH LIST",
+    "report": "REPORT",
+    "watch": "WATCH",
+    "joinUs": "JOIN US"
   }
 }

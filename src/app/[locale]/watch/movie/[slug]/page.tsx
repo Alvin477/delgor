@@ -1,6 +1,7 @@
 import WatchHero from '@/app/components/WatchHero'; // Import WatchHero
 import WatchButtons from '@/app/components/WatchButtons'; // Import WatchButtons
-import MovieCastSlider from '@/app/components/MovieCastSlider'; // Import MovieCastSlider
+import MovieCastSlider from '@/app/components/MovieCastSlider';
+import RelatedMovies from '@/app/components/RelatedMovies';  // Import MovieCastSlider
 import { getMessages } from 'next-intl/server';
 import { fetchMovieDetails } from '@/app/lib/fetchMovieDetails'; // A custom function to fetch movie data
 
@@ -56,6 +57,7 @@ export default async function WatchPage({ params }: { params: { slug: string, lo
         title={movie.title} 
       />
       <MovieCastSlider movieId={movie.id} /> {/* Add the MovieCastSlider for the cast */}
+      <RelatedMovies movieId={movie.id} />
     </div>
   );
 }

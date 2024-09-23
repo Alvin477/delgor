@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 @keyframes glow {
@@ -13,4 +14,38 @@ body {
   100% {
     box-shadow: 0 0 20px #fff, 0 0 30px #ffdd00, 0 0 40px #ffdd00, 0 0 50px #ffdd00;
   }
+}
+
+@keyframes dropdownOpen {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scaleY(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+@keyframes dropdownClose {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scaleY(0.9);
+  }
+}
+
+.animate-dropdown-open {
+  animation: dropdownOpen 0.3s ease-out forwards;
+  transform-origin: top;
+  display: block !important;
+}
+
+.animate-dropdown-close {
+  animation: dropdownClose 0.3s ease-in forwards;
+  transform-origin: top;
+  display: block !important;
 }
