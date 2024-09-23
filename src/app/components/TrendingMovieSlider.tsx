@@ -11,7 +11,7 @@ import { generateSlug } from "@/app/lib/generateSlug";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { useParams } from 'next/navigation';
-import Image from 'next/image'; // Import Image from next/image
+import Image from 'next/image'; // Import Next.js Image component
 
 // Define movie interface
 interface Movie {
@@ -22,7 +22,7 @@ interface Movie {
 }
 
 // Async function to fetch trending movies
-async function fetchTrendingMovies() {
+async function fetchTrendingMovies(): Promise<Movie[]> {
   const res = await fetch(
     `https://api.themoviedb.org/3/trending/movie/day?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`
   );
@@ -32,7 +32,7 @@ async function fetchTrendingMovies() {
 
 const TrendingMovieSlider: React.FC = () => {
   const t = useTranslations("TrendingMovies");
-  const [trendingMovies, setTrendingMovies] = useState<any[]>([]);
+  const [trendingMovies, setTrendingMovies] = useState<Movie[]>([]); // Properly typed trendingMovies
   const params = useParams();
   const locale = params.locale as string;
 
