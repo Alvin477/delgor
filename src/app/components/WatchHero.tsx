@@ -83,9 +83,9 @@ const WatchHero: React.FC<WatchHeroProps> = ({ movie }) => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Bottom fade overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent dark:from-black"></div>
 
-      <div className="relative z-10 text-white mb-12 px-4 animate-fadeInUp">
+      <div className="relative z-10 text-black dark:text-white mb-12 px-4 animate-fadeInUp">
         {/* Movie Title */}
         <h1 className="text-3xl lg:text-5xl font-bold mb-4 animate-slideInUp">
           {title} {releaseYear !== t('notAvailable') && `(${releaseYear})`}
@@ -94,7 +94,7 @@ const WatchHero: React.FC<WatchHeroProps> = ({ movie }) => {
         {/* Rating, Release Date, and Genres */}
         <div className="flex justify-center items-center space-x-4 mb-2 animate-fadeIn">
           <div className="flex items-center">
-            <FaStar className="h-5 w-5 text-yellow-400 mr-1" />
+            <FaStar className="h-5 w-5 text-black dark:text-yellow-400 mr-1" />
             <span>{voteAverage}</span>
           </div>
           <span>•</span>

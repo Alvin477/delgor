@@ -62,9 +62,9 @@
     "war": "War",
     "western": "Western",
     "Sci-Fi & Fantasy": "sciFiFantasy",
-    "Action & Adventure": "actionAdventure"
+    "Action & Adventure": "actionAdventure",
+    "sci-fi&fantasy": "Sci-Fi & Fantasy"
   },
-
   "WatchPage": {
     "title": "Watch {name} - Delgor",
     "description": "Watch {name} on Delgor, the best platform for streaming."
@@ -73,5 +73,36 @@
     "latest": "Latest",
     "movie": "Movie",
     "tvShow": "TV Show"
+  },
+  "WatchButtons": {
+    "play": "Play",
+    "trailer": "Trailer",
+    "addList": "Add to List",
+    "added List": "Added",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!",
+    "sharingMessage": "Sharing Is Caring",
+    "shareWithFriend": "Share this Movie with your friends!, Make Them Happy"
+  },
+  "TVWatchButtons": {
+    "play": "Play",
+    "trailer": "Trailer",
+    "episodeList": "Episode List",
+    "addList": "Add List",
+    "addedToList": "Added",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!",
+    "shareMessage": "Share this TV Show with your friends!, Make Them Happy",
+    "sharingCaring": "Sharing Is Caring"
+  },
+
+  "DownloadButton": {
+    "download": "Download"
+  },
+  "CastSlider": {
+    "cast": "Cast"
+  
   }
 }
