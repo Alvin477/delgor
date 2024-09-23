@@ -7,10 +7,13 @@ import LanguageSelector from '@/app/components/LanguageSelector';
 import Toggler from '@/app/components/Toggler';
 import { useTranslations } from 'next-intl';
 import { FaHome, FaFilm, FaTv, FaListAlt, FaClipboard, FaUserPlus } from 'react-icons/fa'; // Importing icons
+import { useParams } from 'next/navigation'; // Import useParams instead of useRouter
 
 export default function Header() {
   const { theme } = useTheme();
   const t = useTranslations('Header');
+  const params = useParams(); // Get params from the app router
+  const locale = params?.locale || 'en'; // Get the locale from params
 
   return (
     <header className="flex justify-between items-center p-4 bg-gray-100 dark:bg-gray-900 shadow-md text-black dark:text-white relative z-50">
@@ -38,10 +41,10 @@ export default function Header() {
           </button>
           {/* Submenu */}
           <div className="absolute hidden group-hover:block bg-gray-100 dark:bg-gray-900 shadow-lg p-2 mt-2 rounded-md z-50">
-            <Link href="/movies" className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 flex items-center">
+            <Link href={`/${locale}/movies`} className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 flex items-center">
               <FaFilm className="mr-2" /> {t('movies')}
             </Link>
-            <Link href="/tv-series" className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 flex items-center">
+            <Link href={`/${locale}/tvshows`} className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 flex items-center">
               <FaTv className="mr-2" /> {t('tvSeries')}
             </Link>
           </div>
@@ -53,7 +56,7 @@ export default function Header() {
         </Link>
 
         {/* Watch List */}
-        <Link href="/watch-list" className="flex items-center hover:underline">
+        <Link href={`/${locale}/watchlist`} className="flex items-center hover:underline">
           <FaListAlt className="mr-2" /> {t('watchList')}
         </Link>
 

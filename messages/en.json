@@ -172,12 +172,37 @@
   },
   
   "Header": {
-    "home": "Home",
-    "movies": "Movies",
-    "tvShows": "TV Shows",
+    "home": "HOME",
+    "movies": "MOVIES",
+    "tvSeries": "TVSHOW",
     "watchList": "WATCH LIST",
     "report": "REPORT",
     "watch": "WATCH",
     "joinUs": "JOIN US"
-  }
+  },
+ "MyList": {
+  "pageTitle": "My List - Delgor",  
+  "metaDescription": "Manage your favorite movies, TV shows, and videos on Delgor.", 
+  "emptyList": "Lol, Your List is Empty", 
+  "loading": "Loading..." 
+},
+
+"CompanyPage": {
+  "pageTitle": "Explore TV Shows by {companyName}",
+  "metaDescription": "Explore TV shows produced by {companyName}. Discover the best content produced by {companyName}.",
+  "noLogo": "No Logo Available",
+  "noDescription": "No description available for this company.",
+  "tvShowsProduced": "TV Shows Produced",
+  "noTvShows": "No TV shows available from this company."
+},
+
+"NetworkPage": {
+  "showsProduced": "Explore TV Shows by {networkName}",
+  "metaDescription": "Explore TV shows produced by {networkName}. Discover the best content produced by {networkName}.",
+  "noLogo": "No Logo Available",
+  "noDescription": "No description available for this network.",
+  "tvShowsProduced": "TV Shows Produced",
+  "noTvShows": "No TV shows available from this network."
+}
+
 }

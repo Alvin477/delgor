@@ -88,7 +88,7 @@ const RelatedTVShows: React.FC<RelatedTVShowsProps> = ({ tvShowId }) => {
       >
         {allTVShows.map((tvShow) => (
           <Link
-            href={`/watch/tv/${generateSlug(tvShow.name, tvShow.id)}`}
+            href={`/en/watch/tv/${generateSlug(tvShow.name, tvShow.id)}`}
             key={tvShow.id}
             passHref
           >

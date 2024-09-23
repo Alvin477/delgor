@@ -15,8 +15,15 @@ export async function fetchTvShows(locale: string, genre?: number, year?: string
   
   export async function fetchTvGenres(locale: string) {
     const url = `https://api.themoviedb.org/3/genre/tv/list?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}&language=${locale}`;
-    const res = await fetch(url);
-    const data = await res.json();
-    return data.genres;
+    try {
+      const res = await fetch(url);
+      if (!res.ok) {
+        throw new Error(`Failed to fetch TV genres: ${res.statusText}`);
+      }
+      const data = await res.json();
+      return data.genres;
+    } catch (error) {
+      console.error(error);
+      return [];
+    }
   }
-  

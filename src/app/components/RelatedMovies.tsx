@@ -95,7 +95,7 @@ const RelatedMovies: React.FC<RelatedMoviesProps> = ({ movieId }) => {
       >
         {allMovies.map((movie) => (
           <Link
-            href={`/watch/movie/${generateSlug(movie.title, movie.id)}`}
+            href={`/en/watch/movie/${generateSlug(movie.title, movie.id)}`} // Updated link
             key={movie.id}
             passHref
           >

@@ -6,22 +6,21 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Autoplay } from 'swiper/modules';
-import Link from 'next/link'; // Import Link from Next.js
-import { useTranslations } from 'next-intl'; // For translations
-import Image from 'next/image'; // Import Next.js Image component
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
-// Define the network interface
 interface Network {
   id: number;
   name: string;
   logo_path: string;
 }
 
-const networkIds = [213, 49, 1024, 2739, 174, 453, 2552]; // List of network IDs
+const networkIds = [213, 49, 1024, 2739, 174, 453, 2552];
 
 const NetworkSlider: React.FC = () => {
   const [networks, setNetworks] = useState<Network[]>([]);
-  const t = useTranslations('NetworkSlider'); // Translations hook
+  const t = useTranslations('NetworkSlider');
 
   useEffect(() => {
     const fetchNetworks = async () => {
@@ -52,16 +51,16 @@ const NetworkSlider: React.FC = () => {
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={10}
-        slidesPerView={3} // Default for mobile
+        slidesPerView={3}
         breakpoints={{
           640: {
-            slidesPerView: 3, // 3 slides per view on mobile
+            slidesPerView: 3,
           },
           768: {
-            slidesPerView: 5, // 5 slides per view on tablets
+            slidesPerView: 5,
           },
           1024: {
-            slidesPerView: 6, // 6 slides per view on PC
+            slidesPerView: 6,
           },
         }}
         loop={true}
@@ -75,8 +74,8 @@ const NetworkSlider: React.FC = () => {
       >
         {networks.map((network) => (
           <SwiperSlide key={network.id}>
-            <Link href={`/network?id=${network.id}`} passHref> {/* Navigate with query parameter */}
-              <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer company-logo-container">
+            <Link href={`/en/network/${network.id}`}>
+              <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg flex items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer network-logo-container">
                 {network.logo_path ? (
                   <Image
                     src={`https://image.tmdb.org/t/p/original${network.logo_path}`}
@@ -96,64 +95,6 @@ const NetworkSlider: React.FC = () => {
         ))}
       </Swiper>
       <div className="mt-4 custom-pagination swiper-pagination"></div>
-      <style jsx global>{`
-        .swiper-pagination {
-          position: relative;
-          margin-top: 10px;
-        }
-        .swiper-pagination-bullet {
-          background-color: rgba(0, 0, 0, 0.4);
-        }
-        .dark .swiper-pagination-bullet {
-          background-color: rgba(255, 255, 255, 0.4);
-        }
-        .swiper-pagination-bullet-active {
-          background-color: red;
-        }
-
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes slideInLeft {
-          from {
-            opacity: 0;
-            transform: translateX(-20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
-          }
-        }
-
-        .animate-fadeInUp {
-          animation: fadeInUp 1s ease-in-out;
-        }
-
-        .animate-slideInLeft {
-          animation: slideInLeft 1s ease-in-out;
-        }
-
-        .company-logo-container {
-          border: 2px solid transparent;
-          background-color: white;
-        }
-
-        .dark .company-logo-container {
-          background-color: #1a202c; /* dark gray for dark mode */
-        }
-
-        :root:not(.dark) .company-logo-container {
-          border-color: red;
-        }
-      `}</style>
     </div>
   );
 };

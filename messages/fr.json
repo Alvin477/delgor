@@ -57,5 +57,21 @@
     "next": "Next",
     "genre": "Genre",
     "year": "Year"
+  },
+  "MyList": {
+  "pageTitle": "Ma Liste - Delgor",
+  "metaDescription": "Gérez vos films, séries et vidéos préférés sur Delgor.",
+  "emptyList": "Lol, votre liste est vide",
+  "loading": "Chargement..."
+},
+
+  "CompanyPage": {
+    "pageTitle": "Explorez les séries TV produites par {companyName}",
+    "metaDescription": "Explorez les séries TV produites par {companyName}. Découvrez le meilleur contenu produit par {companyName}.",
+    "noLogo": "Aucun logo disponible",
+    "noDescription": "Aucune description disponible pour cette société.",
+    "tvShowsProduced": "Séries TV produites",
+    "noTvShows": "Aucune série TV disponible de cette société."
   }
+
 }

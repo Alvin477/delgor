@@ -139,6 +139,9 @@ const MoviesComponent: React.FC<MoviesComponentProps> = ({ genres, initialMovies
     );
   };
 
+  // Sort movies by release_date in descending order to show the latest movies first
+  const sortedMovies = [...movies].sort((a, b) => new Date(b.release_date).getTime() - new Date(a.release_date).getTime());
+
   return (
     <div className="relative mt-4 md:mt-0 mb-16 md:mb-8">
       <div className="flex flex-row justify-between items-center mb-4 md:mb-8 px-4 md:px-8">
@@ -188,9 +191,9 @@ const MoviesComponent: React.FC<MoviesComponentProps> = ({ genres, initialMovies
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
-          {movies.map((movie) => {
+          {sortedMovies.map((movie) => {
             const slug = `${movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${movie.id}`;
-            const url = `/${locale}/watch/movie/${slug}`;
+            const url = `/en/watch/movie/${slug}`;
 
             return (
               <motion.div

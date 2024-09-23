@@ -140,9 +140,11 @@ const TVSeriesComponent: React.FC<TVSeriesComponentProps> = ({ genres, tvShows, 
     );
   };
 
+  const sortedShows = [...shows].sort((a, b) => new Date(b.first_air_date).getTime() - new Date(a.first_air_date).getTime());
+
   return (
     <div className="relative mt-4 md:mt-0 mb-16 md:mb-8"> {/* Reduced top margin for mobile */}
-      <div className="flex flex-row justify-between items-center mb-4 md:mb-8 px-4 md:px-8">
+      <div className="flex flex-row justify-between items-center mb-4 md:mb-8 px-4 md:px-8 mt-4 md:mt-8">
         <div>
           <label className="mr-2 text-black dark:text-white">{t("genre")}:</label>
           <select
@@ -189,9 +191,9 @@ const TVSeriesComponent: React.FC<TVSeriesComponentProps> = ({ genres, tvShows, 
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
-          {shows.slice(0, 24).map((tvShow) => { // Limit to 24 items on PC
+          {sortedShows.slice(0, 24).map((tvShow) => { // Limit to 24 items on PC
             const slug = `${tvShow.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${tvShow.id}`;
-            const url = `/${locale}/watch/tv/${slug}`;
+            const url = `/en/watch/tv/${slug}`;
 
             return (
               <motion.div
