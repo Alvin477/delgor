@@ -1,10 +1,11 @@
 import WatchHeroTv from '@/app/components/WatchHeroTv'; // Import WatchHeroTv
 import TVWatchButtons from '@/app/components/TVWatchButtons'; // Import TVWatchButtons
 import TvCastSlider from '@/app/components/TvCastSlider'; // Import TvCastSlider
-import TVWatchTabs from '@/app/components/TVWatchTabs'; // Import RelatedTVShows
+import TVWatchTabs from '@/app/components/TVWatchTabs'; // Import TVWatchTabs
 import { getMessages } from 'next-intl/server';
 import { fetchTvShowDetails } from '@/app/lib/fetchTvShowDetails'; // A custom function to fetch TV show data
 
+// Metadata generation for SEO
 export async function generateMetadata({ params }: { params: { slug: string, locale: string } }) {
   const { slug, locale } = params;
 
@@ -55,12 +56,14 @@ export async function generateMetadata({ params }: { params: { slug: string, loc
   };
 }
 
+// WatchTvPage component
 export default async function WatchTvPage({ params }: { params: { slug: string, locale: string } }) {
-  const tvShowSlug = params.slug; // Extract the slug
-  const tvShow = await fetchTvShowDetails(tvShowSlug); // Fetch the TV show data based on the slug
+  const { slug: tvShowSlug, locale } = params; // Extract the slug and locale
+  const tvShow = await fetchTvShowDetails(tvShowSlug); // Fetch TV show data based on the slug
 
+  // Handle case when TV show is not found
   if (!tvShow) {
-    return <div>TV show not found</div>; // Handle case when TV show is not found
+    return <div>TV show not found</div>;
   }
 
   // Ensure seasons are available, otherwise pass an empty array
@@ -68,15 +71,23 @@ export default async function WatchTvPage({ params }: { params: { slug: string, 
 
   return (
     <div>
-      <WatchHeroTv tvShow={tvShow} /> {/* Pass the TV show details to the WatchHeroTv component */}
+      {/* Pass the TV show details to the WatchHeroTv component */}
+      <WatchHeroTv tvShow={tvShow} />
+      
+      {/* Pass the necessary props, including locale, to the TVWatchButtons component */}
       <TVWatchButtons
         tvId={tvShow.id}
-        trailerUrl={tvShow.trailerUrl} // Adjust based on available trailer field
+        trailerUrl={tvShow.trailerUrl || null} // Ensure trailerUrl is passed or null
         title={tvShow.name}
         releaseDate={tvShow.first_air_date} // Pass the release date
+        locale={locale} // Pass the locale for translation
       />
-      <TvCastSlider tvShowId={tvShow.id} /> {/* Add the TvCastSlider for the cast */}
-      <TVWatchTabs tvShowId={tvShow.id} seasons={seasons} /> {/* Pass seasons data to TVWatchTabs */}
+
+      {/* TvCastSlider for the cast */}
+      <TvCastSlider tvShowId={tvShow.id} />
+
+      {/* TVWatchTabs for seasons, pass seasons data */}
+      <TVWatchTabs tvShowId={tvShow.id} seasons={seasons} />
     </div>
   );
 }

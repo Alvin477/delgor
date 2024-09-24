@@ -104,7 +104,48 @@
       "2002": "2002",
       "2001": "2001",
       "2000": "2000"  
-  }
+  },
+
+  "ProcessingPage": {
+    "processing": "正在处理 {title}...",
+    "pleaseWait": "请稍等，我们正在准备您的下载链接。",
+    "notFoundTitle": "未找到电影",
+    "notFoundDescription": "我们找不到您请求的电影或电视剧。请检查链接或稍后再试。"
+  },
+  "ProcessingClient": {
+    "proceedToDownload": "继续下载",
+    "pleaseWait": "请稍等",
+    "seconds": "秒",
+    "reportViaEmail": "通过电子邮件报告",
+    "reportViaTelegram": "通过 Telegram 报告"
+  },
+
+  "ProceedPage": {
+    "processing": "正在处理 {title}...",
+    "pleaseWait": "请稍候，我们正在准备您的下载链接。",
+    "notFoundTitle": "电影未找到 - Delgor",
+    "notFoundDescription": "我们无法找到请求的电影或电视节目。",
+    "description": "正在准备 {title} 的下载链接。"
+  },
+  "ProceedClient": {
+    "proceedToDownload": "继续下载",
+    "pleaseWait": "请稍候",
+    "seconds": "秒",
+    "reportViaEmail": "通过电子邮件报告",
+    "reportViaTelegram": "通过Telegram报告"
+  },
+
+ 
+    "DownloadPage": {
+      "title": "下载 {title}",
+      "description": "在Delgor下载 {title}。多种质量选项可用。",
+      "loading": "加载下载链接... 请稍等。",
+      "noLinksFound": "抱歉，我们找不到任何有效的下载链接。",
+      "reportViaEmail": "通过电子邮件报告",
+      "reportViaTelegram": "通过Telegram报告"
+    }
+  
+  
 }
 
   

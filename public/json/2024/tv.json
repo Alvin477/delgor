@@ -1,0 +1,94 @@
+[
+  {
+    "id": 102621,
+    "title": "KAOS",
+    "type": "tv",
+    "seasons": [
+      {
+        "seasonLabel": "Batch Download | Season 12",
+        "episodes": [
+          {
+            "label": "MEGA | Season 1 Ep 01 | 262.0 MB",
+            "url": "https://mega.nz/file/JJJnRQoQ#BxVYusU86rWttoa4k_7joIWGhCS1zWLSwHPJ_ntNX64"
+          },
+          {
+            "label": "MEGA | Season 1 Ep 02 | 262.0 MB",
+            "url": "https://mega.nz/file/gFhhzQaD#1FG9fBtQ4AtEKxHtgnqmbchFfzWVddRptL-8bQFxK7c"
+          }
+        ]
+      },
+      {
+        "seasonLabel": "Season 1",
+        "episodes": [
+          {
+            "label": "MEGA | Season 2 Ep 01 | 300.0 MB",
+            "url": "https://mega.nz/file/s2Ep01"
+          },
+          {
+            "label": "MEGA | Season 2 Ep 02 | 320.0 MB",
+            "url": "https://mega.nz/file/s2Ep02"
+          }
+        ]
+      },
+      {
+        "seasonLabel": "Season 1",
+        "episodes": [
+          {
+            "label": "MEGA | Season 2 Ep 01 | 300.0 MB",
+            "url": "https://mega.nz/file/s2Ep01"
+          },
+          {
+            "label": "MEGA | Season 2 Ep 02 | 320.0 MB",
+            "url": "https://mega.nz/file/s2Ep02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10262322,
+    "title": "GHOST",
+    "type": "tv",
+    "seasons": [
+      {
+        "seasonLabel": "Batch Download | Season 122222222222",
+        "episodes": [
+          {
+            "label": "MEGA | Season 1 Ep 01 | 262.0 MB222222222",
+            "url": "https://mega.nz/file/JJJnRQoQdd#BxVYusU86rWttoa4k_7joIWGhCS1zWLSwHPJ_ntNX64"
+          },
+          {
+            "label": "MEGA | Season 1 Ep 02 | 262.0 MB2222222222",
+            "url": "https://mega.nz/file/gFhhzQaD#1FG9fBtQ4AtEKxHtgnqmbchFfzWVddRptL-8bQFxK7c"
+          }
+        ]
+      },
+      {
+        "seasonLabel": "Season 1",
+        "episodes": [
+          {
+            "label": "MEGA | Season 2 Ep 01 | 300.0 MB",
+            "url": "https://mega.nz/file/s2Ep01"
+          },
+          {
+            "label": "MEGA | Season 2 Ep 02 | 320.0 MB",
+            "url": "https://mega.nz/file/s2Ep02"
+          }
+        ]
+      },
+      {
+        "seasonLabel": "Season 1",
+        "episodes": [
+          {
+            "label": "MEGA | Season 2 Ep 01 | 300.0 MB",
+            "url": "https://mega.nz/file/s2Ep01"
+          },
+          {
+            "label": "MEGA | Season 2 Ep 02 | 320.0 MB",
+            "url": "https://mega.nz/file/s2Ep02"
+          }
+        ]
+      }
+    ]
+  }
+]

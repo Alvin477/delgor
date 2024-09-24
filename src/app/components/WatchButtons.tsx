@@ -10,12 +10,14 @@ interface WatchButtonsProps {
   movieId: number;
   trailerUrl: string | null;
   title: string;
+  locale: string;
 }
 
 export default function WatchButtons({
   movieId,
   trailerUrl: initialTrailerUrl,
   title,
+  locale,
 }: WatchButtonsProps) {
   const t = useTranslations('WatchButtons'); // Translation hook
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -185,8 +187,8 @@ export default function WatchButtons({
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 1, ease: 'easeOut' }}
           >
-            {/* Pass releaseYear to DownloadButton */}
-            <DownloadButton id={movieId.toString()} type="movie" releaseYear={releaseYear} />
+            {/* Pass releaseYear and locale to DownloadButton */}
+            <DownloadButton id={movieId.toString()} type="movie" releaseYear={releaseYear} locale={locale} />
           </motion.div>
         </div>
 
@@ -254,8 +256,8 @@ export default function WatchButtons({
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 1, ease: 'easeOut' }}
           >
-            {/* Pass releaseYear to DownloadButton */}
-            <DownloadButton id={movieId.toString()} type="movie" releaseYear={releaseYear} />
+            {/* Pass releaseYear and locale to DownloadButton */}
+            <DownloadButton id={movieId.toString()} type="movie" releaseYear={releaseYear} locale={locale} />
           </motion.div>
         </div>
       </div>

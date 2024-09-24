@@ -203,6 +203,35 @@
   "noDescription": "No description available for this network.",
   "tvShowsProduced": "TV Shows Produced",
   "noTvShows": "No TV shows available from this network."
-}
+},
 
+"ProcessingPage": {
+  "processing": "Processing {title}...",
+  "pleaseWait": "Please wait while we prepare your download link.",
+  "notFoundTitle": "Movie Not Found",
+  "notFoundDescription": "We could not find the requested movie or TV series. Please check the link or try again later."
+},
+"ProceedPage": {
+    "processing": "Processing {title}...",
+    "pleaseWait": "Please wait while we prepare your download link.",
+    "notFoundTitle": "Movie Not Found - Delgor",
+    "notFoundDescription": "We could not find the requested movie or TV series.",
+    "description": "The download link for {title} is being prepared."
+  },
+  "ProceedClient": {
+    "proceedToDownload": "Proceed to Download",
+    "pleaseWait": "Please wait",
+    "seconds": "seconds",
+    "reportViaEmail": "Report via Email",
+    "reportViaTelegram": "Report via Telegram"
+  },
+
+
+    "DownloadPage": {
+      "title": "Download Links for \"{title}\"",
+      "noLinksFound": "Sorry, we couldn't find any valid download links for \"{title}\".",
+      "reportViaEmail": "Report Broken Link via Email",
+      "reportViaTelegram": "Report via Telegram"
+    }
+  
 }

@@ -11,6 +11,7 @@ interface TVWatchButtonsProps {
   trailerUrl: string | null;
   title: string;
   releaseDate: string;  // Prop for the release date
+  locale: string; // Add locale prop
 }
 
 export default function TVWatchButtons({
@@ -18,6 +19,7 @@ export default function TVWatchButtons({
   trailerUrl: initialTrailerUrl,
   title,
   releaseDate,  // Include the release date prop here
+  locale, // Include the locale prop here
 }: TVWatchButtonsProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState<string | null>(null);
@@ -208,7 +210,7 @@ export default function TVWatchButtons({
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 1, ease: 'easeOut' }}
           >
-            <DownloadButton id={tvId.toString()} type="tv" releaseYear={releaseYear} /> {/* Pass releaseYear here */}
+            <DownloadButton id={tvId.toString()} type="tv" releaseYear={releaseYear} locale={locale} /> {/* Pass releaseYear and locale here */}
           </motion.div>
         </div>
 
@@ -287,7 +289,7 @@ export default function TVWatchButtons({
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5, duration: 1, ease: 'easeOut' }}
             >
-              <DownloadButton id={tvId.toString()} type="tv" releaseYear={releaseYear} /> {/* Pass releaseYear here */}
+              <DownloadButton id={tvId.toString()} type="tv" releaseYear={releaseYear} locale={locale} /> {/* Pass releaseYear and locale here */}
             </motion.div>
           </div>
         </div>
